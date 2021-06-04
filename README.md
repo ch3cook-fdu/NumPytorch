@@ -7,4 +7,4 @@ We implemented some image augmentation based on numpy only, please refer to `Num
 
 We provide some configs and pre-trained models in `config/` and `checkpoints/`. In our experiment, we show that the model trained in this package outperforms pytorch's implementation.
 
-If you meet with any trouble, please let me know by opening an issue.
+If you have any problem about this implementation, please let me know by opening an issue.
