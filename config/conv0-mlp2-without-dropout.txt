@@ -1,0 +1,5 @@
+nn.Sequential(nn.Flatten(),
+                           nn.Linear(256, 128),
+                           nn.ReLU(),
+                           nn.Linear(128, 10)
+                           )

@@ -1,0 +1,9 @@
+nn.Sequential(nn.Conv2d(1, 4, (3, 3), padding=1),
+                           nn.ReLU(),
+                           nn.MaxPool2d(2, 2),
+                           nn.Flatten(),
+                           nn.Linear(256, 128),
+                           nn.ReLU(),
+                           nn.Dropout(p=0.5),
+                           nn.Linear(128, 10)
+                           )

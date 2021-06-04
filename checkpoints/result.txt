@@ -1,0 +1,16 @@
+=======> with out data augmentation <=======
+python trainer.py --config "conv0-mlp2-without-dropout"
+96.00%
+python trainer.py --config "conv0-mlp2"
+96.70%
+python trainer.py --config "conv1-mlp2"
+98.00%
+python trainer.py --config "conv3-mlp2"
+99.40%
+
+=======> with data augmentation <=======
+python trainer.py --config "conv3-mlp2"
+99.70%
+
+=======> evaluation of checkpoints <=======
+python evaluate.py --dir "checkpoints/without augmentation" --config "conv3-mlp2"
